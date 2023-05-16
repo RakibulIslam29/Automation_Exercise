@@ -46,7 +46,7 @@ test.describe('Login User', () => {
             .locator('form')
             .filter({ hasText: 'Login' })
             .getByPlaceholder('Email Address')
-            .fill('rakibul.test@gmail.com');
+            .fill('rakibul.tests@gmail.com');
         await page.getByPlaceholder('Password').click();
         await page.getByPlaceholder('Password').fill('123456');
 
