@@ -142,7 +142,7 @@ test.describe('Register User', () => {
         await page.getByPlaceholder('Name').click();
         await page.getByPlaceholder('Name').fill('Rakibul Islam');
         await page.locator('form').filter({ hasText: 'Signup' }).getByPlaceholder('Email Address').click();
-        await page.locator('form').filter({ hasText: 'Signup' }).getByPlaceholder('Email Address').fill('rakibul.test@gmail.com');
+        await page.locator('form').filter({ hasText: 'Signup' }).getByPlaceholder('Email Address').fill('rakibul.islam.test@gmail.com');
         await page.getByRole('button', { name: 'Signup' }).click(); // submit
 
         // Account Info
