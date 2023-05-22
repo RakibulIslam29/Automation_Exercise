@@ -18,9 +18,9 @@ test.afterAll( async () =>{
     await browser.close();
 });
 
-test.describe('Login User', () => {
+test.describe('Verify Test Cases Page', () => {
 
-    test('Does Login User with correct email and password working properly?', async ({ page }) => {
+    test('Does Verify Test Cases Page properly?', async ({ page }) => {
 
 
         await page.getByRole('link', { name: 'Website for automation practice' }).isVisible();
