@@ -1,4 +1,7 @@
 # Automation_Exercise
+
+Automate core functionality on the "AutomationExercise" e-commerce website.
+
 🔍️ Covered Test cases in this project :
 ✅Test Case 1: Register User
 Launch browser
